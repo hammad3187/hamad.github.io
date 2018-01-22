@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 
-Project:	Treviso - One page multi purpose page
+Project:    - One page multi purpose page
 Version:	1.0
 Last change:	17/08/2015 [...]
-Designed by:	MOOZ Themes / www.MOOZthemes.com
+Designed by:	MOOZ Themes / Costumized by Hamad
 Primary use:	One page
 
 /*--------------------
@@ -22,23 +22,41 @@ body {
     font-family: "Raleway", Sans-serif;
     
 }
-
+#background
+{
+position: absolute;
+padding: 0px;
+margin: 0%;
+width: 100%;
+height: 800px;
+top: -120px;
+}
+#logo
+{
+    height: 40px;
+    width: 40px;
+}
+#core
+{
+    width: 40px;
+    height: 150px;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-weight: 200;
+	font-weight: 300;
 	letter-spacing: 0.4px;
 	font-family: "Raleway", Sans-serif;
-	color: #232323;
+	color: #106568;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 28px;
 	letter-spacing: 0.2px;
 	color: #252525;
@@ -50,7 +68,7 @@ height: 100%;
 width: 100%;   
 }
 a:hover, a:focus, a:active, a.active {
-    color: #fec503;
+    color: #106568;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
@@ -58,7 +76,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background:#106568;
 }
 
 @media (min-width: 768px) {
@@ -98,20 +116,20 @@ section {
     padding: 5px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #fec503
+	color: #106568;
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	background-color: #106568;
+	border-color: #106568;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	background-color:#106568;
 }
 .navbar-default .nav li a {
     font-family: "Roboto",sans-serif;
@@ -127,18 +145,18 @@ section {
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	border-color: #991919;
+	border-color: #106568;
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #fed136
+	background-color:#106568;
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #fec503
+	background-color:#106568;
 }
 
 @media (min-width:768px) {
@@ -202,20 +220,24 @@ section {
 {
 position: absolute;
 }
-#background
+#aboutarea
 {
-    height: 500px;
-    width: 100%;
+margin: 0%;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 0%;
 }
 #frontimg
 {
-    height: 200px;
-    width: 600px;
+    height: 275px;
+    width: 500px;
+    padding-bottom: 80px;
+    
 }
 #rowmargin
 {
-    margin-top: 250px;
-    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 
@@ -370,10 +392,10 @@ figure.effect-bubba:hover img {
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -407,6 +429,17 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+	padding: 15px 2.5em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+figure.effect-bubba .text-align-left {
     color: #fff;
     font-size: 13px;
     font-weight: 400;
@@ -541,7 +574,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 footer {
     padding: 30px;
-    background-color: #000;    
+    background-color: rgb(7, 98, 126);    
 }
 
 footer p {
@@ -592,7 +625,7 @@ footer p a span {
 font-size: 11px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-weight: 500;
+   font-weight: 500;
     color: #fff;
     margin: 25px 20px;
 }
@@ -609,14 +642,14 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color:#0a7583;
+    border-color: #0a7583;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #0a7583;
+    border-color: #0a7583;
 }
 
 .btn {
@@ -677,7 +710,7 @@ font-size: 11px;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #fed136;
+    background: #0a7583;
 }
 /* arrow icon (span tag) */
 #back-top i {
