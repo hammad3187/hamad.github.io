@@ -33,8 +33,10 @@ top: -120px;
 }
 #logo
 {
-    height: 40px;
-    width: 40px;
+    position: absolute;
+    top: 5px;
+    height: 80px;
+    width: 170px;
 }
 #core
 {
