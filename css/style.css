@@ -31,6 +31,17 @@ width: 100%;
 height: 800px;
 top: -120px;
 }
+#backgroundourservices
+{
+    z-index: -1;
+    position: absolute;
+    padding: 0px;
+    margin: 0%;
+    width: 99.8%;
+    height: 800px;
+    top: 660px;
+    
+}
 #logo
 {
     position: absolute;
@@ -83,7 +94,11 @@ a, a:hover, a:focus, a:active, a.active {
 
 @media (min-width: 768px) {
 	section {
-	    padding: 150px 0;
+        padding: 150px 0;
+        
+
+
+
 	}
 }
 
@@ -189,6 +204,25 @@ section {
         padding-top: 15px;
         padding-bottom: 4px;
     }
+
+
+
+
+}
+@media (max-width: 768px) {
+#portfoliopara
+{
+
+    font-size: 12px;
+    line-height: 1.2;
+   
+}
+#portfolioheading
+{
+    font-size:14px;
+
+}
+
 }
 
 /*--------------------
@@ -221,6 +255,10 @@ section {
 #aboutpicture
 {
 position: absolute;
+}
+#ourservicespicture
+{
+    
 }
 #aboutarea
 {
@@ -339,13 +377,51 @@ font-weight: 700;
 4.3. Portfolio
 --------------------*/
 
-figure {
+/*--------------------
+4.3. PortfolioHEading
+--------------------*/
+#ourservices 
+{
+    text-align: left;
+  
+    padding-bottom: 100px;
+}
+
+#portfoliopara
+{
+    line-height: 2;
+  padding-right: 100px;
+  padding-left: 100px; 
+  font-weight: 500; 
+  color: rgb(0, 0, 0);
+}
+#portfolioheading
+{
+  padding-right: 100px;
+  padding-left: 100px; 
+  padding-top: 60px;
+  padding-bottom: 15px; 
+  font-weight: 500; 
+  color: #106568;
+}
+#whitecover
+{
+
+    background: rgb(255, 255, 255);
+    z-index: 0;
+    opacity: .5;
+    position: absolute;
+      
+}
+
+.ot-portfolio-item {
 	position: relative;
     overflow: hidden;
     margin: 0 1px 1px 0;
-    background: #726FB9;
-    text-align: center;
-    cursor: pointer;	
+    background: rgb(150, 150, 150);
+    text-align: left;
+    cursor: pointer;
+    height: 680px;	
 }
 
 figcaption {
@@ -620,7 +696,7 @@ footer p a span {
 
 .modal-body p {
 	margin: 30px 20px;
-	color: #2D2D2D;		
+	color: rgb(0, 105, 97);		
 }
 
 .modal-works {
@@ -735,5 +811,25 @@ and (max-width : 480px) {
 #back-top i {
     margin-top: 7px;
     font-size: 20px;
+}
+.figcaption
+{
+    margin: 0%;
+    padding: 0%;
+}
+#portfoliopara
+{
+
+    font-size: 10px;
+    line-height: 1.5;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+#portfolioheading
+{
+    font-size:12px;
+
+    padding-left: 10px; 
+    padding-right: 10px;
 }
 }
