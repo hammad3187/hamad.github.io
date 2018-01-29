@@ -22,14 +22,18 @@ body {
     font-family: "Raleway", Sans-serif;
     
 }
+#container-fluid
+{
+    height: 100vh;
+}
 #background
 {
 position: absolute;
 padding: 0px;
 margin: 0%;
 width: 100%;
-height: 800px;
-top: -120px;
+height: 100%;
+top: 0px;
 }
 #backgroundourservices
 {
@@ -38,8 +42,9 @@ top: -120px;
     padding: 0px;
     margin: 0%;
     width: 99.8%;
-    height: 800px;
-    top: 660px;
+    top: 500px;
+    height: 1080px;
+   
     
 }
 #logo
@@ -252,13 +257,21 @@ section {
 /*--------------------
 4.1. About
 --------------------*/
+#about
+{
+    height: 100vh;
+}
 #aboutpicture
 {
 position: absolute;
 }
-#ourservicespicture
+#ourservices
 {
-    
+    height: 100vh;
+}
+#ourservicespara
+{
+    text-align: left;
 }
 #aboutarea
 {
@@ -380,12 +393,6 @@ font-weight: 700;
 /*--------------------
 4.3. PortfolioHEading
 --------------------*/
-#ourservices 
-{
-    text-align: left;
-  
-    padding-bottom: 100px;
-}
 
 #portfoliopara
 {
@@ -421,7 +428,7 @@ font-weight: 700;
     background: rgb(150, 150, 150);
     text-align: left;
     cursor: pointer;
-    height: 680px;	
+    height: 100%;	
 }
 
 figcaption {
